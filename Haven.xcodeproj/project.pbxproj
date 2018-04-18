@@ -84,7 +84,6 @@
 		FAA625071F26A865005D9190 /* Haven */ = {
 			isa = PBXGroup;
 			children = (
-				FAA625081F26A865005D9190 /* AppDelegate.swift */,
 				FAA625101F26A865005D9190 /* Main.storyboard */,
 				FAA6251F1F26B3DE005D9190 /* TypeViewController.swift */,
 				FAB0CD7C20867EEF00A9DCC9 /* Model */,
@@ -96,6 +95,7 @@
 		FAA6251E1F26A884005D9190 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAA625081F26A865005D9190 /* AppDelegate.swift */,
 				FAB0CD7A20867E7C00A9DCC9 /* GoogleService-Info.plist */,
 				FA630BFB1F26B5A30038F61E /* Extensions.swift */,
 				FAA625131F26A865005D9190 /* Assets.xcassets */,

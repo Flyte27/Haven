@@ -16,8 +16,6 @@ class AnimalListController: UIViewController {
     
     override func viewDidLoad() {
         
-        refreshAnimals()
-        
         tableView.estimatedRowHeight = 50
         tableView.rowHeight = UITableViewAutomaticDimension
         

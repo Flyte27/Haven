@@ -39,7 +39,6 @@ class TypeViewController: UIViewController {
     }
     
     func viewAnimalList() {
-        let animalListVC = storyboard!.instantiate(AnimalListController.self)
-        self.navigationController?.pushViewController(animalListVC, animated: true)
+        
     }
 }

@@ -8,26 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B2414FB6039789B2233368FD /* Pods_Haven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BAB382E1740D552A66E29A /* Pods_Haven.framework */; };
-		FA1C1016208674EA00AE9D37 /* AnimalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C1015208674EA00AE9D37 /* AnimalListController.swift */; };
 		FA630BFC1F26B5A30038F61E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630BFB1F26B5A30038F61E /* Extensions.swift */; };
+		FA7B839D20869747005E34A3 /* References.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B839C20869747005E34A3 /* References.swift */; };
 		FAA625091F26A865005D9190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA625081F26A865005D9190 /* AppDelegate.swift */; };
 		FAA625121F26A865005D9190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA625101F26A865005D9190 /* Main.storyboard */; };
 		FAA625141F26A865005D9190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA625131F26A865005D9190 /* Assets.xcassets */; };
 		FAA625171F26A865005D9190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA625151F26A865005D9190 /* LaunchScreen.storyboard */; };
 		FAA625201F26B3DE005D9190 /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6251F1F26B3DE005D9190 /* TypeViewController.swift */; };
 		FAB0CD7B20867E7C00A9DCC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB0CD7A20867E7C00A9DCC9 /* GoogleService-Info.plist */; };
-		FAB0CD7E20867F1300A9DCC9 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CD7D20867F1300A9DCC9 /* Animal.swift */; };
-		FAB0CD8020867F9900A9DCC9 /* AnimalsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CD7F20867F9900A9DCC9 /* AnimalsHelper.swift */; };
-		FAB0CD822086810C00A9DCC9 /* AnimalBasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0CD812086810C00A9DCC9 /* AnimalBasicCell.swift */; };
-		FADDD9D220867B1D0071E0C4 /* FirebaseGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADDD9D120867B1D0071E0C4 /* FirebaseGeneral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BAB382E1740D552A66E29A /* Pods_Haven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EB535AE8185484A1C97519 /* Pods-Haven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haven/Pods-Haven.debug.xcconfig"; sourceTree = "<group>"; };
 		84237D038B936245FE564193 /* Pods-Haven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haven.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haven/Pods-Haven.release.xcconfig"; sourceTree = "<group>"; };
-		FA1C1015208674EA00AE9D37 /* AnimalListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListController.swift; sourceTree = "<group>"; };
 		FA630BFB1F26B5A30038F61E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../Extensions.swift; sourceTree = "<group>"; };
+		FA7B839C20869747005E34A3 /* References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = References.swift; sourceTree = "<group>"; };
 		FAA625051F26A865005D9190 /* Haven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA625081F26A865005D9190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA625111F26A865005D9190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,10 +32,6 @@
 		FAA625181F26A865005D9190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA6251F1F26B3DE005D9190 /* TypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
 		FAB0CD7A20867E7C00A9DCC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FAB0CD7D20867F1300A9DCC9 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
-		FAB0CD7F20867F9900A9DCC9 /* AnimalsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsHelper.swift; sourceTree = "<group>"; };
-		FAB0CD812086810C00A9DCC9 /* AnimalBasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalBasicCell.swift; sourceTree = "<group>"; };
-		FADDD9D120867B1D0071E0C4 /* FirebaseGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGeneral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +87,6 @@
 				FAA625081F26A865005D9190 /* AppDelegate.swift */,
 				FAA625101F26A865005D9190 /* Main.storyboard */,
 				FAA6251F1F26B3DE005D9190 /* TypeViewController.swift */,
-				FA1C1015208674EA00AE9D37 /* AnimalListController.swift */,
-				FAB0CD812086810C00A9DCC9 /* AnimalBasicCell.swift */,
 				FAB0CD7C20867EEF00A9DCC9 /* Model */,
 				FAA6251E1F26A884005D9190 /* Supporting Files */,
 			);
@@ -111,6 +101,7 @@
 				FAA625131F26A865005D9190 /* Assets.xcassets */,
 				FAA625151F26A865005D9190 /* LaunchScreen.storyboard */,
 				FAA625181F26A865005D9190 /* Info.plist */,
+				FA7B839C20869747005E34A3 /* References.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,9 +109,6 @@
 		FAB0CD7C20867EEF00A9DCC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FADDD9D120867B1D0071E0C4 /* FirebaseGeneral.swift */,
-				FAB0CD7D20867F1300A9DCC9 /* Animal.swift */,
-				FAB0CD7F20867F9900A9DCC9 /* AnimalsHelper.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -260,14 +248,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB0CD8020867F9900A9DCC9 /* AnimalsHelper.swift in Sources */,
+				FA7B839D20869747005E34A3 /* References.swift in Sources */,
 				FAA625201F26B3DE005D9190 /* TypeViewController.swift in Sources */,
 				FA630BFC1F26B5A30038F61E /* Extensions.swift in Sources */,
 				FAA625091F26A865005D9190 /* AppDelegate.swift in Sources */,
-				FAB0CD822086810C00A9DCC9 /* AnimalBasicCell.swift in Sources */,
-				FA1C1016208674EA00AE9D37 /* AnimalListController.swift in Sources */,
-				FADDD9D220867B1D0071E0C4 /* FirebaseGeneral.swift in Sources */,
-				FAB0CD7E20867F1300A9DCC9 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
